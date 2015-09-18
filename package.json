@@ -1,0 +1,10 @@
+{
+  "name": "wgap-datalist",
+  "version" : "1.0.0",
+  "author": {
+    "name": "Noah Lange",
+    "url": "http://noahlange.com"
+  },
+  "license": "MIT",
+  "main": "index.js"
+}

@@ -5,9 +5,13 @@
     "name": "Noah Lange",
     "url": "http://noahlange.com"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/noahlange/wgap-datalist.git"
+  },
   "scripts": {
     "test": "mocha tests/test.js",
-    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+    "travis-test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
   },
   "devDependencies": {
     "buzzwords": "^0.3.0",

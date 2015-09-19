@@ -15,7 +15,7 @@ describe('wgap-datalist', function() {
     });
     
     it('should return a function', function () {
-      expect(datalist(require('weasels'))).to.be.a('function');
+      expect(datalist(require('buzzwords'))).to.be.a('function');
     });
     
   });

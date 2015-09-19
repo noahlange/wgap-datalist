@@ -1,7 +1,7 @@
 # Write-Good (as Promised) - Datalist
 
 [![Build Status](https://travis-ci.org/noahlange/wgap-datalist.svg?branch=master)](https://travis-ci.org/noahlange/wgap-datalist)
-[![Coverage Status](https://coveralls.io/repos/noahlange/wgap-datalist/badge.svg)](https://coveralls.io/r/noahlange/wgap-datalist)
+[![Coverage Status](https://coveralls.io/repos/noahlange/wgap-datalist/badge.svg?branch=master&service=github)](https://coveralls.io/github/noahlange/wgap-datalist?branch=master)
 
 A wrapper for [wooorm](https://github.com/wooorm)'s datalist modules, allowing
 them to be used as [write-good](https://github.com/btford/write-good) checks.

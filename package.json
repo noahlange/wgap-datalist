@@ -1,9 +1,20 @@
 {
   "name": "wgap-datalist",
-  "version" : "1.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "Noah Lange",
     "url": "http://noahlange.com"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js",
+    "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+  },
+  "devDependencies": {
+    "buzzwords": "^0.3.0",
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.2"
   },
   "license": "MIT",
   "main": "index.js"
